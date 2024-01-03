@@ -64,13 +64,16 @@ function SidePanel() {
     { id: 2, name: "Chair_black_single", scale: 2, menu_scale: 4 },
     { id: 3, name: "Chair_long_blue", scale: 2, menu_scale: 2 },
     { id: 4, name: "ChairAndTable", scale: 2, menu_scale: 2 },
-    { id: 5, name: "Furniture_set", scale: 1, menu_scale: 2 },
+    { id: 5, name: "Furniture_set", scale: 2, menu_scale: 2 },
     { id: 6, name: "IndoorPlant", scale: 0.5, menu_scale: 0.5 },
     { id: 7, name: "Plastic_chair", scale: 2, menu_scale: 4 },
     { id: 8, name: "SamsungTV", scale: 1, menu_scale: 1 },
     { id: 9, name: "Sofa", scale: 1.5, menu_scale: 2 },
     { id: 10, name: "TvStand", scale: 2.5, menu_scale: 3 },
     { id: 11, name: "Wardrobe",scale:0.004,menu_scale:1 },
+    { id: 12, name: "Bunk_bed",scale: 2,menu_scale:2 },
+    { id: 13, name: "Wooden_bed_free",scale: 2.5,menu_scale:3 },
+    { id: 14, name: "Arm_chair__furniture", scale: 2,menu_scale:2.5 },
   ]);
   const [lightLevel, setLightLevel] = useState({
     ambient: 1,
